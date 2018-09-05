@@ -25,6 +25,11 @@
     "extra": {
         "branch-alias": {
             "master": "0.1-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Pkeogan\\LaravelConfigWriter\\ConfigServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev"
