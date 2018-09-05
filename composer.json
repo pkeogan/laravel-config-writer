@@ -1,0 +1,31 @@
+{
+    "name": "pkeogan/laravel-config-writer",
+    "description": "A Laravel 5.5 Package that expands the config ability to write",
+    "keywords": [
+        "laravel",
+        "Config",
+        "Write"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Keogan",
+            "email": "peter@pkeogan.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/config": "~5.5."
+    },
+    "autoload": {
+        "psr-4": {
+            "Pkeogan\\LaravelConfigWriter\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "master": "0.1-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
